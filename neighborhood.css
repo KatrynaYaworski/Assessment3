@@ -1,0 +1,111 @@
+.eventContainer {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	justify-content: left;
+	display: block;
+}
+
+.description {
+	margin-left: 15px;
+}
+
+.eventImgAndDescription {
+	display: flex;
+	flex-direction: row;
+}
+
+content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#restaurantRequest{
+    padding: 75px;
+}
+
+
+#neighborhoodBody {
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	font-family: "Open Sans", sans-serif;
+}
+main{
+	position: relative;
+	max-width: 1000px;
+}
+
+ol {
+	display: flex;
+	justify-content: center;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+nav {
+	border-bottom: 2px solid rgb(116, 71, 15);
+}
+#restaurantRequestBtn{
+	height: 50px;
+	width: 300px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: larger;
+	
+}
+
+#restaurantList {
+	list-style: none;
+}
+
+#pAndGList {
+	list-style: none;
+}
+
+.content-underlay {
+	background-color: white;
+	opacity: .5;
+	position: absolute;
+	height: 330%;
+	width: 1100px;
+	z-index: -1;
+	border-radius: 30px;
+}
+
+#pAndGContainer {
+	display: flex;
+}
+
+.events {
+	border-top: 2px solid rgb(116, 71, 15);
+}
+
+.bkg {
+	background-image: url('https://images.fineartamerica.com/images/artworkimages/medium/3/frisco-water-tower-calvin-hearns.jpg');
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	left: 0;
+	z-index: -1;
+}
+
+a {
+	color: rgb(89, 88, 87);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+}
+
+a:visited {
+	color: rgb(16, 2, 65);
+}
+img {
+	max-width: 300px;
+}

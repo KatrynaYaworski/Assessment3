@@ -1,0 +1,99 @@
+#homeBody {
+	background-image: url('https://st2.depositphotos.com/3837271/8402/i/600/depositphotos_84028236-stock-photo-you-are-beautiful-on-desert.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+body{
+	margin: 1rem;
+	padding: 1rem;
+	max-width: 500px;
+	margin: 2rem auto;
+	font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid rgb(116, 71, 15);
+}
+
+.contactUs {
+	color: rgb(255, 255, 255);
+	opacity: 1;
+}
+
+.underlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .5;
+	z-index: -1;
+	border-radius: 30px;
+}
+
+textContentContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 50vh;
+	width: 30vw;
+	margin-top: 10px;
+}
+
+.innertext {
+	color: rgb(255, 255, 255);
+	opacity: 1;
+}
+
+content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ol {
+	display: flex;
+	justify-content: center;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: rgb(89, 88, 87);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+}
+
+a:visited {
+	color: rgb(16, 2, 65);
+}
+
+
+input {
+	display: block;
+}
+
+input[type='checkbox'] {
+	display: inline-block;
+}
+
+.homeImage {
+	display: flex;
+	justify-content: center;
+}
+
+img {
+	max-width: 300px;
+}
+
+form > div {
+	margin: 5px 0;
+}
